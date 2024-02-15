@@ -3,7 +3,7 @@ import { pockota, montserrat } from "../theme/foundations/typography";
 const commonTextStyle = {
   fontFamily: pockota.style.fontFamily,
   fontStyle: "normal",
-  fontWeight: 600,
+  fontWeight: 500,
   lineHeight: "110%",
 };
 
@@ -72,8 +72,8 @@ export const textStyles = {
     },
     bodyMR: {
       ...commonTextStyle,
-      fontSize: { sm: "14px", lg: "16px" },
-      fontWeight: "500",
+      fontSize: { sm: "14px", lg: "24px" },
+      fontWeight: "600",
       lineHeight: "160%",
     },
     bodySM: {
@@ -115,7 +115,6 @@ export const textStyles = {
     h3: {
       ...secondaryTextStyle,
       fontSize: ["22px", "24px", "26px", "28px", "30px", "32px", "34px"],
-
       lineHeight: "125%",
       letterSpacing: "-0.32px",
     },
@@ -139,7 +138,7 @@ export const textStyles = {
     },
     bodyLM: {
       ...secondaryTextStyle,
-      fontSize: "18px",
+      fontSize: "16px",
       lineHeight: "150%",
       letterSpacing: "-0.24px",
     },
@@ -157,7 +156,7 @@ export const textStyles = {
     bodyMR: {
       ...secondaryTextStyle,
       fontSize: { sm: "12px", lg: "14px !important" },
-      fontWeight: "500",
+      fontWeight: "600",
       lineHeight: "145%",
       letterSpacing: "0.021px",
     },

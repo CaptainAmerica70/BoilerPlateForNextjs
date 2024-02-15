@@ -9,4 +9,5 @@ export const formSchema = yup.object().shape({
       "Must contain at least one letter and one number"
     )
     .required("Required"),
+  Referral: yup.string().required("Required"),
 });

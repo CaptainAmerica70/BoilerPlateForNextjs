@@ -12,7 +12,7 @@ interface ButtonComponentProps extends ButtonProps {
 const ButtonComponent: React.FC<ButtonComponentProps> = ({ border, variant, children, icon, ...props }) => {
   return (
     <Button variant={variant} border={border} {...props}>
-      {icon ? <Icon as={icon} /> : children}
+      {icon ? <Icon width={'24 px'} height={'24px'} as={icon} /> : children}
     </Button>
   );
 };

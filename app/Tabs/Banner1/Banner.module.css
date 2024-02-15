@@ -1,0 +1,11 @@
+.Banner {
+  height: 100vh !important;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.Icon {
+  width: 547.43px;
+  height: 509px;
+  width: 100%;
+  height: auto;
+}

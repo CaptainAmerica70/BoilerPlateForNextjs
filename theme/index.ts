@@ -1,3 +1,5 @@
+import { typography } from "./foundations/typography";
+import { textStyles } from "./../Style/TextStyles";
 // "use client";
 import { extendTheme } from "@chakra-ui/react";
 import { ButtonStyles as Button } from "./components/Button";
@@ -35,4 +37,5 @@ export const theme = extendTheme({
       // other global styles...
     },
   },
+  textStyles,
 });

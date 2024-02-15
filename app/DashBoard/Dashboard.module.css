@@ -1,0 +1,13 @@
+.main {
+  background: url("/image/jurica-koletic-efqnM0zWh54-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main h1 {
+  font-size: larger;
+  color: blueviolet;
+}
+
+.main {
+  background-color: rgba(64, 62, 62, 0.5); /* black with 50% opacity */
+}
